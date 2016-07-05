@@ -1,1 +1,1 @@
-# marionette
+Sample application

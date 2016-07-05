@@ -1,0 +1,35 @@
+{
+  "name": "marionette-sample",
+  "version": "0.1.0",
+  "babel" : {
+    "presets": [ "es2015" ]
+  },
+  "description": "A sample project",
+  "main": "bin/app.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "g": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/canmrt/marionette"
+  },
+  "author": "Murat Can",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/canmrt/marionette/issues"
+  },
+  "homepage": "https://github.com/canmrt/marionette",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "gulp": "^3.9.1",
+    "webpack": "^1.13.1",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.9.1",
+    "jquery": "^3.0.0"
+  }
+}
