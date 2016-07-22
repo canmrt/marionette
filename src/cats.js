@@ -1,2 +1,1 @@
-var cats = ['a','b','c','d']
-module.exports = cats;
+export var cats = ['test', 'hello-world'];
